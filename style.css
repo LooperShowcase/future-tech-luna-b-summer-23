@@ -1,0 +1,23 @@
+.container{
+    background-color: burlywood;
+    align-items:center;
+    border-radius: 20px;
+    width: 50%;
+}
+button{
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(248, 247, 247);
+    color: brown;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3em; ;
+}
+button:hover {
+    background-color:rgb(91, 41, 41);
+    cursor: pointer;
+
+}
+#labelContaine{
+    background-color: chocolate;
+    color: blue;
+}   
