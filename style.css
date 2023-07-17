@@ -1,23 +1,31 @@
-.container{
+..container {
     background-color: burlywood;
-    align-items:center;
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-button{
+
+button {
     box-shadow: 0px 0px 10px black;
     background-color: rgb(248, 247, 247);
     color: brown;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 20px;
-    transition: 0.3em; ;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border: none;
 }
-button:hover {
-    background-color:rgb(91, 41, 41);
-    cursor: pointer;
 
+button:hover {
+    background-color: rgb(91, 41, 41);
+    color: white;
+    cursor: pointer;
 }
-#labelContaine{
+
+#labelContainer {
     background-color: chocolate;
     color: blue;
-}   
+    padding: 10px;
+}
